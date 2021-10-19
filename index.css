@@ -1,0 +1,135 @@
+body {
+    background-image: url("images/pattern-background-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+
+#desktop-design {
+    width: 450px;
+    height: 650px;
+    background: white;
+    margin-bottom: 10px;
+    top: 10%;
+    margin-left: 35%;
+    border-radius: 10px;
+    /* display: inline-block; */
+    
+    /* margin-right: -50%;  */ 
+    /* transform: translate(-50%, -50%);  */
+
+}
+
+p {
+    justify-content: center;
+    /* width: 100%; */
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    display: table;
+    vertical-align: middle;
+    box-sizing: border-box;
+    color: gray;
+    font-family: Optima, sans-serif;
+}
+#para-design {
+    width: 350px;
+    text-align: center;
+    margin-left: 50px;
+    
+}
+#annual-plan {
+    width: 350px;
+    height: 100px;
+    margin: 20px 20px 25px 50px;
+    position: relative;
+    justify-content: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    background-color: hsl(225, 100%, 98%)
+}
+h2 {
+    font-weight: bold;
+    color: black;
+    font-family: 'serif';
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+
+table {
+    color: black;
+    font-weight: bold;
+    padding: 20px 0px 20px 20px; 
+    float: left;
+    text-align: left;
+    
+}
+td {
+    font-family: Andale Mono, monospace;
+    padding-top: 5px;
+}
+th{
+    padding-bottom: 5px;
+}
+a {
+    color: hsl(245, 75%, 52%);
+    font-family: Andale Mono, monospace;
+    float: right;
+    padding: 35px 30px 50px 0px;
+    font-size: 15px;
+}
+
+#payment {
+    text-align: center;
+    
+    width: 78%;
+    height: 35px;
+    margin-left: 50px;
+    background-color: hsl(225, 80%, 32%);
+    color: white;
+    font-family: Andale Mono, monospace;
+    border: none;
+    transition: 0.2s all;
+}
+#cancel {
+    text-align: center;
+    width: 78%;
+    height: 35px;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: hsl(225, 100%, 98%);
+    color: gray;
+    font-family: Andale Mono, monospace;
+    border: none;
+    margin-bottom: 20px;
+    transition: 0.2s all;   
+}
+#payment:active , #cancel:active {
+    transform: scale(0.98);
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+.challenge {
+    display: flex;
+    /* justify-content: left; */
+    align-items: flex-end;
+    flex-direction: row;
+    
+}
+img {
+    border-radius: 10px;
+}
